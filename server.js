@@ -7,7 +7,7 @@ var knex = require('knex')
 const db= knex({
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
+    host : 'postgresql-dimensional-90809',
     user : 'shivam',
     password : 'hello',
     database : 'postgres'
